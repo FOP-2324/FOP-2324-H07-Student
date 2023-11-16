@@ -4,6 +4,9 @@ import h07.tree.*;
 
 import java.time.LocalTime;
 
+/**
+ * Class representing a normal log introduced in H4.3
+ */
 public class NormalLog extends Log{
 
     @Override

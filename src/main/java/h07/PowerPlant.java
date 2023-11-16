@@ -14,7 +14,7 @@ public class PowerPlant {
 
     /**
      * Create a PowerPlant
-     * @param log Which Log to use
+     * @param log Log to use for Logging of PowerPlant
      * @param random Random Object
      * @param numOfReactors Number of Reactors in PowerPlant
      */
@@ -31,7 +31,7 @@ public class PowerPlant {
 
     /**
      * Create a random PowerPlant
-     * @param log Which Log to use
+     * @param log Log to use for Logging of PowerPlant
      * @param numOfReactors Number of Reactors in PowerPlant
      */
     public PowerPlant(Log log, int numOfReactors){

@@ -1,7 +1,7 @@
 package h07.tree;
 
 /**
- * Representing a node of a expression tree
+ * Class representing a node of an expression tree
  */
 public interface Node {
     // TODO H3.1

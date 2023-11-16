@@ -23,7 +23,7 @@ public class PowerFunction {
     }
 
     /**
-     * Get Value
+     * Get Value of PowerFunction
      * @param t Time Variable
      * @return the pseudo random value
      */

@@ -3,7 +3,7 @@ package h07;
 import h07.tree.*;
 
 /**
- * Logging Engine
+ * Class abstracting a Logging Engine as expression tree
  */
 public abstract class Log {
     protected static final char ANSI_ESCAPE = 0x1b;

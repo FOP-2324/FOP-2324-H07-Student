@@ -8,6 +8,9 @@ import java.util.Random;
  */
 public class Main {
 
+    /**
+     * String for testing H2.2
+     */
     private final static String TEST_STRING = "FOP for president!";
 
 
@@ -37,7 +40,9 @@ public class Main {
 //    }
 
 
-
+    /**
+     * Method to test H2.2
+     */
     private static void test_h22(){
 //        System.out.println("H2.2: ");
 //        System.out.println(testNormal().map(TEST_STRING));
@@ -46,7 +51,11 @@ public class Main {
 //        System.out.println();
     }
 
-    private static void test_h4() {
+    /**
+     * Method to test H4
+     * @throws InterruptedException Exception can be thrown by sleeping thread
+     */
+    private static void test_h4() throws InterruptedException {
 //        System.out.println("H4:");
 //        Log log = new NormalLog(); //new MaintenanceLog();
 //        log.log(1, "Hallo FoPler!");
@@ -63,6 +72,10 @@ public class Main {
     }
 
 
+    /**
+     * Method to test H5
+     * @throws InterruptedException Exception can be thrown by sleeping thread
+     */
     private static void test_h5() throws InterruptedException {
 //        System.out.println("H5:");
 //        Log log = new NormalLog(); //new MaintenanceLog();

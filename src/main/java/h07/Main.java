@@ -22,6 +22,15 @@ public class Main {
 //        // TODO H2.2
 //    }
 
+
+//    /**
+//     *
+//     * @return anonymous implementation of {@link  MapExpression}
+//     */
+//    public static MapExpression testAnonymous(){
+//        // TODO H2.2
+//    }
+
 //    /**
 //     *
 //     * @return lambda implementation of {@link  MapExpression}
@@ -46,6 +55,7 @@ public class Main {
     private static void test_h22(){
 //        System.out.println("H2.2: ");
 //        System.out.println(testNormal().map(TEST_STRING));
+//        System.out.println(testAnonymous().map(TEST_STRING));
 //        System.out.println(testLambda().map(TEST_STRING));
 //        System.out.println(testMethodReference().map(TEST_STRING));
 //        System.out.println();

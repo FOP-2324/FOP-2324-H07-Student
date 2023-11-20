@@ -9,14 +9,16 @@ import java.util.Random;
 public class Main {
 
     /**
-     * String for testing H2.2
+     * THe string used for testing purposes.
      */
     private final static String TEST_STRING = "FOP for president!";
 
 
+
 //    /**
+//     * Returns the normal map expression, more formally using the constructor to create a new instance of the class.
 //     *
-//     * @return normal implementation of {@link  MapExpression}
+//     * @return the normal map expression using the constructor to create a new instance of the class
 //     */
 //    public static MapExpression testNormal(){
 //        // TODO H2.2
@@ -24,16 +26,19 @@ public class Main {
 
 
 //    /**
+//     * Returns the map expression, more formally using an anonymous class to create a new instance of the class.
 //     *
-//     * @return anonymous implementation of {@link  MapExpression}
+//     * @return the map expression using an anonymous class to create a new instance of the class
 //     */
 //    public static MapExpression testAnonymous(){
 //        // TODO H2.2
 //    }
 
+
 //    /**
+//     * Returns the lambda expression, more formally using the lambda expression to create a new instance of the class.
 //     *
-//     * @return lambda implementation of {@link  MapExpression}
+//     * @return the lambda expression using the lambda expression to create a new instance of the class
 //     */
 //    public static MapExpression testLambda(){
 //        // TODO H2.2
@@ -41,8 +46,9 @@ public class Main {
 
 
 //    /**
+//     * Returns the method reference, more formally using the method reference to create a new instance of the class.
 //     *
-//     * @return shortcut for lambda of {@link  MapExpression} using method reference
+//     * @return the method reference using the method reference to create a new instance of the class
 //     */
 //    public static MapExpression testMethodReference(){
 //        // TODO H2.2
@@ -50,7 +56,7 @@ public class Main {
 
 
     /**
-     * Method to test H2.2
+     * Tests the different implementations of the MapExpression interface.
      */
     private static void test_h22(){
 //        System.out.println("H2.2: ");
@@ -62,8 +68,11 @@ public class Main {
     }
 
     /**
-     * Method to test H4
-     * @throws InterruptedException Exception can be thrown by sleeping thread
+     * Tests the log implementations.
+     *
+     * @throws InterruptedException if any thread has interrupted the current thread. The
+     *                              <i>interrupted status</i> of the current thread is
+     *                              cleared when this exception is thrown.
      */
     private static void test_h4() throws InterruptedException {
 //        System.out.println("H4:");
@@ -83,8 +92,11 @@ public class Main {
 
 
     /**
-     * Method to test H5
-     * @throws InterruptedException Exception can be thrown by sleeping thread
+     * Tests the log implementations.
+     *
+     * @throws InterruptedException if any thread has interrupted the current thread. The
+     *                              <i>interrupted status</i> of the current thread is
+     *                              cleared when this exception is thrown.
      */
     private static void test_h5() throws InterruptedException {
 //        System.out.println("H5:");
@@ -99,9 +111,12 @@ public class Main {
 
 
     /**
-     * Entry Point
-     * @param args Parameter
-     * @throws InterruptedException Exception for sleeping Thread
+     * Main entry point in executing the program.
+     *
+     * @param args command line arguments
+     * @throws InterruptedException if any thread has interrupted the current thread. The
+     *                              <i>interrupted status</i> of the current thread is
+     *                              cleared when this exception is thrown.
      */
     public static void main(String[] args) throws InterruptedException {
         test_h22();

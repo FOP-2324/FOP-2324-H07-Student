@@ -3,17 +3,25 @@ package h07;
 import java.util.Random;
 
 /**
- * Function representing a pseudo random behaviour of Reactor
+ * Represents a pseudo random behaviour of {@link Reactor}.
  */
 public class PowerFunction {
 
+    /**
+     * The first coefficient of the power function
+     */
     final double[] coeff0;
+
+    /**
+     * The second coefficient of the power function
+     */
     final double[] coeff1;
 
     /**
-     * Construct new Power Function
-     * @param coeff0 Coefficient Index 0
-     * @param coeff1 Coefficient Index 1
+     * Construct new power function with its coefficients
+     *
+     * @param coeff0 the first coefficient
+     * @param coeff1 the second coefficient
      */
     public PowerFunction(double[] coeff0, double[] coeff1){
         assert coeff0.length == coeff1.length;
@@ -22,10 +30,12 @@ public class PowerFunction {
         this.coeff1 = coeff1;
     }
 
+
     /**
-     * Get Value of PowerFunction
-     * @param t Time Variable
-     * @return the pseudo random value
+     * Returns the value of the power function at time t
+     *
+     * @param t the time variable
+     * @return the value of the power function at time t
      */
     public double get(double t){
         int N = coeff0.length;
@@ -39,10 +49,11 @@ public class PowerFunction {
     }
 
     /**
-     * Generate random PowerFunction
-     * @param random Random Generator
-     * @param N Size
-     * @return the created PowerFunction
+     * Generates a random power function with given size.
+     *
+     * @param random the random generator
+     * @param N      the size of the power function
+     * @return the created random power function
      */
     public static PowerFunction generate(Random random, int N){
         double[] coeff0 = new double[N];
@@ -57,9 +68,10 @@ public class PowerFunction {
     }
 
     /**
-     * Generate random PowerFunction with size 4
-     * @param random Random Generator
-     * @return the created PowerFunction
+     * Generates a random power function with size 4.
+     *
+     * @param random the random generator
+     * @return the created random power function
      */
     public static PowerFunction generate(Random random){
         return generate(random, 4);

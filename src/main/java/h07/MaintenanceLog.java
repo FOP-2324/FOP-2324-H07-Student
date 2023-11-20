@@ -3,7 +3,7 @@ package h07;
 import h07.tree.Node;
 
 /**
- * Class representing a normal log introduced in H4.4
+ * Represents a maintenance log.
  */
 public class MaintenanceLog extends Log {
 

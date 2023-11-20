@@ -3,20 +3,32 @@ package h07;
 import java.util.Random;
 
 /**
- * A simulated PowerPlant
+ * Represents a simulated power plant.
  */
 public class PowerPlant {
 
+    /**
+     * The log used by the power plant.
+     */
     final Log log;
+
+    /**
+     * The random generator used by the power plant.
+     */
     final Random random;
+
+    /**
+     * The reactors of the power plant.
+     */
 
     final Reactor[] reactors;
 
     /**
-     * Create a PowerPlant
-     * @param log Log to use for Logging of PowerPlant
-     * @param random Random Object
-     * @param numOfReactors Number of Reactors in PowerPlant
+     * Create a new power plant.
+     *
+     * @param log           the log to use
+     * @param random        random generator to use
+     * @param numOfReactors the number of reactors in the power plant
      */
     public PowerPlant(Log log, Random random, int numOfReactors){
         this.log = log;
@@ -30,17 +42,19 @@ public class PowerPlant {
     }
 
     /**
-     * Create a random PowerPlant
-     * @param log Log to use for Logging of PowerPlant
-     * @param numOfReactors Number of Reactors in PowerPlant
+     * Create a new power plant.
+     *
+     * @param log           the log to use
+     * @param numOfReactors the number of reactors in the power plant
      */
     public PowerPlant(Log log, int numOfReactors){
         this(log, new Random(), numOfReactors);
     }
 
     /**
-     * Check the state of the PowerPlant and logs it
-     * @param t Time variable
+     * Checks the state of the power plant and logs it.
+     *
+     * @param t the time variable
      */
     public void check(double t){
         // TODO H5
